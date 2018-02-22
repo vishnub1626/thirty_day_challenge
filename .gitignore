@@ -1,0 +1,8 @@
+mix-manifest.json
+node_modules/
+*.pyc
+*.pyo
+__pycache__/
+*.log
+.static_storage/
+.media/

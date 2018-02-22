@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thrity Day Challenge | Login</title>
+    <link rel="stylesheet" href="{% static "css/app.css" %}">
+</head>
+
+<body class="sans">
+    <div class="flex">
+        <div class="w-1/4 mx-auto mt-8">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <h3 class="mb-6">30 Day Challenge | Login</h3>
+
+                <div class="mb-4">
+                    <label for="username" class="block mb-2 font-bold text-sm text-grey-darker">Username</label>
+                    <input class="w-full shadow border rounded py-2 px-2 text-grey-darker" type="text" name="username" id="username">
+                </div>
+
+                <div class="mb-4">
+                    <label for="username" class="block mb-2 font-bold text-sm text-grey-darker">Password</label>
+                    <input class="w-full shadow border rounded py-2 px-2 text-grey-darker" type="password" name="password" id="password">
+                </div>
+
+                <div class="w-full text-right">
+                    <button class="bg-blue rounded py-2 px-2 text-white">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
